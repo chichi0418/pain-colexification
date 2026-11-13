@@ -1,0 +1,323 @@
+{
+  "clusters": {
+    "C1": [
+      "Austroasiatic",
+      "Tai-Kadai",
+      "Pano-Tacanan",
+      "Austronesian",
+      "Tupian"
+    ],
+    "C2": [
+      "Nakh-Daghestanian",
+      "Turkic",
+      "Uralic",
+      "Indo-European",
+      "Afro-Asiatic",
+      "Sino-Tibetan"
+    ]
+  },
+  "rho": {
+    "within_pooled": {
+      "n": 25,
+      "min": 0.2764558583627476,
+      "max": 0.8308975217084608,
+      "median": 0.5541771304981943,
+      "mean": 0.5373461526089955,
+      "q1": 0.4557236873174207,
+      "q3": 0.6098869285579
+    },
+    "within_by_cluster": {
+      "C1": {
+        "n": 10,
+        "min": 0.3222260241600139,
+        "max": 0.8308975217084608,
+        "median": 0.5198363004219142,
+        "mean": 0.5242022727577094,
+        "q1": 0.4169784653563717,
+        "q3": 0.5964242062031755
+      },
+      "C2": {
+        "n": 15,
+        "min": 0.2764558583627476,
+        "max": 0.7482743985395002,
+        "median": 0.5577135488692062,
+        "mean": 0.5461087391765197,
+        "q1": 0.45756632766859207,
+        "q3": 0.6372464961670223
+      }
+    },
+    "between": {
+      "n": 30,
+      "min": -0.0365946150929086,
+      "max": 0.6836810764972899,
+      "median": 0.2756747511181336,
+      "mean": 0.2940262142506322,
+      "q1": 0.19534377251762916,
+      "q3": 0.38704419772346743
+    },
+    "overlap": {
+      "overlaps": true,
+      "low": 0.2764558583627476,
+      "high": 0.6836810764972899,
+      "n_between_above_within_min": 15,
+      "n_between_total": 30,
+      "n_within_below_between_max": 21,
+      "n_within_total": 25
+    },
+    "test_reported": null,
+    "test_omitted_because": "Clusters were derived by average-linkage clustering of this same Spearman matrix; a within-vs-between test would be circular."
+  },
+  "highlight": {
+    "Sino-Tibetan\u2013Tupian": 0.6836810764972899,
+    "Indo-European\u2013Nakh-Daghestanian": 0.2764558583627476
+  },
+  "silhouette_overall_reported_in_manuscript": 0.331,
+  "geography_descriptive": {
+    "between": {
+      "n": 30,
+      "min": 1319.96,
+      "max": 17614.885,
+      "median": 9741.267100000001,
+      "mean": 9487.432789999999,
+      "q1": 6612.2155,
+      "q3": 12092.65675
+    },
+    "within_pooled": {
+      "n": 25,
+      "min": 851.3568,
+      "max": 18577.9748,
+      "median": 4991.967,
+      "mean": 7419.982228,
+      "q1": 3288.718,
+      "q3": 8800.659
+    },
+    "C1": {
+      "n": 10,
+      "min": 851.3568,
+      "max": 18577.9748,
+      "median": 16391.480499999998,
+      "mean": 11762.604189999998,
+      "q1": 4923.256649999999,
+      "q3": 17997.570649999998
+    },
+    "C2": {
+      "n": 15,
+      "min": 1297.339,
+      "max": 8800.659,
+      "median": 4764.165,
+      "mean": 4524.90092,
+      "q1": 3120.3049,
+      "q3": 5588.947
+    }
+  },
+  "geography_tests": {
+    "C1": {
+      "value": "geographic_distance_km",
+      "n_members": 5,
+      "n_pairs": 10,
+      "observed_median_km": 16391.480499999998,
+      "null_median_km": 7802.6025,
+      "null_min_km": 3342.3514999999998,
+      "null_max_km": 17400.7418,
+      "percentile_in_null": 99.78354978354979,
+      "p_one_sided_tighter": 0.9978354978354979,
+      "p_one_sided_more_dispersed": 0.008658008658008658,
+      "p_two_sided_exact": 0.017316017316017316,
+      "n_subsets_enumerated": 462,
+      "minimum_attainable_p": 0.004329004329004329,
+      "exhaustive": true
+    },
+    "C2": {
+      "value": "geographic_distance_km",
+      "n_members": 6,
+      "n_pairs": 15,
+      "observed_median_km": 4764.165,
+      "null_median_km": 7100.6729,
+      "null_min_km": 4764.165,
+      "null_max_km": 16163.0145,
+      "percentile_in_null": 0.6493506493506493,
+      "p_one_sided_tighter": 0.006493506493506494,
+      "p_one_sided_more_dispersed": 1.0,
+      "p_two_sided_exact": 0.012987012987012988,
+      "n_subsets_enumerated": 462,
+      "minimum_attainable_p": 0.004329004329004329,
+      "exhaustive": true
+    }
+  },
+  "geography_verdict": "**C1** is significantly *more dispersed* geographically than a random group of 5 families (percentile 99.8, two-sided exact p = 0.017); its members group together despite being far apart. **C2** is significantly *tighter* geographically than a random group of 6 families (percentile 0.6, two-sided exact p = 0.013); geographic proximity cannot be ruled out as a contributor to this cluster.",
+  "nearest_geographic_pairs": [
+    {
+      "pair": "Austroasiatic\u2013Tai-Kadai",
+      "relation": "within C1",
+      "spearman_rho": 0.8308975217084608,
+      "geographic_distance_km": 851.3568
+    },
+    {
+      "pair": "Pano-Tacanan\u2013Tupian",
+      "relation": "within C1",
+      "spearman_rho": 0.5399801532095385,
+      "geographic_distance_km": 1061.9159
+    },
+    {
+      "pair": "Nakh-Daghestanian\u2013Turkic",
+      "relation": "within C2",
+      "spearman_rho": 0.4712891132333518,
+      "geographic_distance_km": 1297.339
+    },
+    {
+      "pair": "Austroasiatic\u2013Sino-Tibetan",
+      "relation": "between",
+      "spearman_rho": 0.388583509513742,
+      "geographic_distance_km": 1319.96
+    },
+    {
+      "pair": "Sino-Tibetan\u2013Tai-Kadai",
+      "relation": "between",
+      "spearman_rho": 0.291114457003398,
+      "geographic_distance_km": 1361.5322
+    },
+    {
+      "pair": "Nakh-Daghestanian\u2013Uralic",
+      "relation": "within C2",
+      "spearman_rho": 0.4202091058814148,
+      "geographic_distance_km": 2566.511
+    },
+    {
+      "pair": "Turkic\u2013Uralic",
+      "relation": "within C2",
+      "spearman_rho": 0.7482743985395002,
+      "geographic_distance_km": 2683.853
+    },
+    {
+      "pair": "Indo-European\u2013Nakh-Daghestanian",
+      "relation": "within C2",
+      "spearman_rho": 0.2764558583627476,
+      "geographic_distance_km": 2951.8918
+    },
+    {
+      "pair": "Indo-European\u2013Uralic",
+      "relation": "within C2",
+      "spearman_rho": 0.5577135488692062,
+      "geographic_distance_km": 3288.718
+    },
+    {
+      "pair": "Indo-European\u2013Turkic",
+      "relation": "within C2",
+      "spearman_rho": 0.4594089680197635,
+      "geographic_distance_km": 3395.985
+    }
+  ],
+  "most_similar_pairs": [
+    {
+      "pair": "Austroasiatic\u2013Tai-Kadai",
+      "relation": "within C1",
+      "spearman_rho": 0.8308975217084608,
+      "geographic_distance_km": 851.3568
+    },
+    {
+      "pair": "Turkic\u2013Uralic",
+      "relation": "within C2",
+      "spearman_rho": 0.7482743985395002,
+      "geographic_distance_km": 2683.853
+    },
+    {
+      "pair": "Afro-Asiatic\u2013Uralic",
+      "relation": "within C2",
+      "spearman_rho": 0.747757965007532,
+      "geographic_distance_km": 6129.311
+    },
+    {
+      "pair": "Afro-Asiatic\u2013Sino-Tibetan",
+      "relation": "within C2",
+      "spearman_rho": 0.6861510764127834,
+      "geographic_distance_km": 8800.659
+    },
+    {
+      "pair": "Sino-Tibetan\u2013Tupian",
+      "relation": "between",
+      "spearman_rho": 0.6836810764972899,
+      "geographic_distance_km": 17186.5986
+    },
+    {
+      "pair": "Indo-European\u2013Sino-Tibetan",
+      "relation": "within C2",
+      "spearman_rho": 0.667120612610263,
+      "geographic_distance_km": 6258.489
+    },
+    {
+      "pair": "Austronesian\u2013Tupian",
+      "relation": "within C1",
+      "spearman_rho": 0.6340664944492167,
+      "geographic_distance_km": 16619.9465
+    },
+    {
+      "pair": "Pano-Tacanan\u2013Sino-Tibetan",
+      "relation": "between",
+      "spearman_rho": 0.6129519864704801,
+      "geographic_distance_km": 17614.885
+    },
+    {
+      "pair": "Austroasiatic\u2013Tupian",
+      "relation": "within C1",
+      "spearman_rho": 0.6098869285579,
+      "geographic_distance_km": 17928.941
+    },
+    {
+      "pair": "Afro-Asiatic\u2013Indo-European",
+      "relation": "within C2",
+      "spearman_rho": 0.6073723797237817,
+      "geographic_distance_km": 5015.162
+    }
+  ],
+  "geography_pooled_test_omitted_because": "C1 and C2 have opposite geographic character (C1 median within-pair distance 16,391 km, C2 median within-pair distance 4,764 km), so a pooled within-vs-between median is dominated by the larger cluster and represents neither.",
+  "satellite": {
+    "clusters": {
+      "C1": [
+        "Afro-Asiatic",
+        "Nakh-Daghestanian",
+        "Turkic",
+        "Uralic"
+      ],
+      "C2": [
+        "Austroasiatic",
+        "Pano-Tacanan",
+        "Tai-Kadai"
+      ],
+      "C3": [
+        "Austronesian",
+        "Tupian"
+      ],
+      "C4": [
+        "Indo-European",
+        "Sino-Tibetan"
+      ]
+    },
+    "within": {
+      "n": 11,
+      "min": 0.5544968628538643,
+      "max": 0.7899653758162659,
+      "median": 0.6507945775988788,
+      "mean": 0.6597004355259058,
+      "q1": 0.6343344924326385,
+      "q3": 0.6853758471829501
+    },
+    "between": {
+      "n": 44,
+      "min": 0.0122765037420954,
+      "max": 0.5841413133562701,
+      "median": 0.32496737688432176,
+      "mean": 0.3335438517144849,
+      "q1": 0.2607247197838193,
+      "q3": 0.45328906304159644
+    },
+    "overlap": {
+      "overlaps": true,
+      "low": 0.5544968628538643,
+      "high": 0.5841413133562701,
+      "n_between_above_within_min": 2,
+      "n_between_total": 44,
+      "n_within_below_between_max": 1,
+      "n_within_total": 11
+    }
+  }
+}

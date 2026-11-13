@@ -1,0 +1,41 @@
+{
+  "n_concepts": 26,
+  "n_raters": 4,
+  "fleiss_kappa": 0.8252100840336135,
+  "mean_observed_agreement": 0.9230769230769231,
+  "expected_agreement": 0.5599112426035504,
+  "category_proportions": {
+    "phy": 0.6730769230769231,
+    "nonphy": 0.3269230769230769
+  },
+  "n_unanimous": 22,
+  "pct_unanimous": 84.61538461538461,
+  "non_unanimous": [
+    {
+      "concept": "BAD LUCK",
+      "phy": 1,
+      "nonphy": 3,
+      "final": "nonphy"
+    },
+    {
+      "concept": "BLUE",
+      "phy": 1,
+      "nonphy": 3,
+      "final": "nonphy"
+    },
+    {
+      "concept": "PAIN",
+      "phy": 3,
+      "nonphy": 1,
+      "final": "phy"
+    },
+    {
+      "concept": "PAINFUL",
+      "phy": 1,
+      "nonphy": 3,
+      "final": "nonphy"
+    }
+  ],
+  "final_equals_majority_vote": true,
+  "final_equals_ground_truth_file": true
+}

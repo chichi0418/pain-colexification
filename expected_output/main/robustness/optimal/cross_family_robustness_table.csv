@@ -1,0 +1,13 @@
+Family,Algorithm,Main_ARI,Main_p,Main_significant,Threshold,K2,Walk_Steps,Overall_Evaluation
+Afro-Asiatic,optimal,-0.0769,1.0,False,0/10 (✗),no change,0/11 (✗),Structural mismatch
+Austroasiatic,optimal,-0.0094,1.0,False,0/6 (✗),worse,0/11 (✗),Structural mismatch
+Austronesian,optimal,0.2278,0.0604,False,0/6 (✗),worse,4/11 (✓),Robust but near-significant
+Indo-European,optimal,0.3424,0.009,True,8/9 (✓),worse,3/11 (✓),Conditionally significant
+Nakh-Daghestanian,optimal,-0.0284,1.0,False,0/5 (✗),ARI increased,0/11 (✗),Structural mismatch
+Pano-Tacanan,optimal,-0.0606,1.0,False,0/8 (✗),no change,0/11 (✗),Structural mismatch
+Sino-Tibetan,optimal,0.1212,0.2727,False,0/9 (✗),ARI increased,0/11 (✗),Structural mismatch
+Tai-Kadai,optimal,0.0175,0.4286,False,0/6 (✗),worse,0/11 (✗),Structural mismatch
+Tupian,optimal,0.1026,0.3,False,0/10 (✗),worse,0/11 (✗),Structural mismatch
+Turkic,optimal,1.0,0.0667,False,0/8 (✗),no change,0/11 (✗),Structural mismatch
+Uralic,optimal,0.4425,0.0952,False,0/6 (✗),newly significant,5/11 (✓),Robust but near-significant
+Universal,optimal,0.1388,0.0171,True,6/7 (✓),ARI increased,11/11 (✓),Conditionally significant

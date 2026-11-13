@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this code or the derived data, please cite it as below."
+title: "pain-colexification: analysis code and data for the CLICS4 PAIN colexification study"
+type: software
+authors:
+  - family-names: Hsu
+    given-names: Ping-Chi
+version: 1.0.0
+license: MIT
+repository-code: "https://github.com/chichi0418/pain-colexification"
+keywords:
+  - pain semantics
+  - colexification
+  - CLICS
+  - semantic networks

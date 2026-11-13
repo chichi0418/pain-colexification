@@ -1,0 +1,5 @@
+Analysis,Family,Condition,optimum,n_distinct_optima_found,orderings_returning_it,is_reported_optimal,Q,k_matched,label_ARI,p_exact,sig_05,label_ARI_leiden,p_exact_leiden
+threshold,Indo-European,t20,1,1,21/21,True,0.152778,3,0.5556,0.0357,True,1.0,0.0179
+threshold,Uralic,t5,1,1,21/21,True,0.079861,2,0.4324,0.1429,False,1.0,0.0476
+threshold,Afro-Asiatic,t5,1,1,21/21,True,0.08,2,0.1026,0.4286,False,-0.0769,1.0
+threshold,Afro-Asiatic,t10,1,1,21/21,True,0.08,2,0.1026,0.4286,False,-0.0769,1.0

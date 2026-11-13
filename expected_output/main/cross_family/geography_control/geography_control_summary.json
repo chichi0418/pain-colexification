@@ -1,0 +1,50 @@
+{
+  "inputs": {
+    "similarity_csv": "output/main/cross_family/similarity_matrix.csv",
+    "geography_csv": "data/family_pairwise_geography.csv"
+  },
+  "outputs": {
+    "pairs_csv": "output/main/cross_family/geography_control/geography_control_pairs.csv",
+    "summary_json": "output/main/cross_family/geography_control/geography_control_summary.json",
+    "report_md": "output/main/cross_family/geography_control/geography_control.md",
+    "scatter_png": "output/main/cross_family/geography_control/geography_control_scatter.png",
+    "scatter_paper_png": "output/main/cross_family/geography_control/geography_control_scatter_paper.png"
+  },
+  "spearman_similarity_vs_geo": {
+    "x": "geographic_distance_km",
+    "y": "concept_spearman_similarity",
+    "n": 55,
+    "rho": -0.12236652236652239,
+    "p": 0.37346514096086525
+  },
+  "spearman_concept_distance_vs_geo": {
+    "x": "geographic_distance_km",
+    "y": "concept_spearman_distance",
+    "n": 55,
+    "rho": 0.12236652236652239,
+    "p": 0.37346514096086525
+  },
+  "pearson_similarity_vs_geo": {
+    "x": "geographic_distance_km",
+    "y": "concept_spearman_similarity",
+    "n": 55,
+    "r": -0.04110215332317513,
+    "p": 0.7657441917880328
+  },
+  "mantel_permutation": {
+    "n_families": 11,
+    "n_pairs": 55,
+    "rho": -0.12236652236652239,
+    "p_two_sided": 0.39786021397860216,
+    "n_permutations": 10000,
+    "seed": 42
+  },
+  "chulldist_robustness": {
+    "x": "chulldist",
+    "y": "concept_spearman_similarity",
+    "n": 55,
+    "rho": -0.08961038961038963,
+    "p": 0.51529508357988,
+    "n_matched": 55
+  }
+}

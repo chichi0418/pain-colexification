@@ -1,0 +1,27 @@
+ID,Concept,Comm
+1,ANXIETY,nonphy
+2,BAD,nonphy
+3,BAD LUCK,nonphy
+4,BLISTER,phy
+5,BLUE,nonphy
+6,BOIL (OF SKIN),phy
+7,BRUISE,phy
+8,DAMAGE OR INJURE,phy
+9,DESTROY,phy
+10,DIE,phy
+11,DISEASE,phy
+12,EVIL,nonphy
+13,FEVER,phy
+14,GRIEF,nonphy
+15,HOT,phy
+16,LAUGH,phy
+17,PAIN,nonphy
+18,PAINFUL,phy
+19,PITY,nonphy
+20,REGRET,nonphy
+21,SCAR,phy
+22,SICK,phy
+23,SWELLING,phy
+24,TIRED,phy
+25,WEAK,phy
+26,WOUND,phy

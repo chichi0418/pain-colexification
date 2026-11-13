@@ -1,0 +1,3 @@
+Cluster,Families,n,Within_rho_min,Within_rho_max,Mean_rho_Universal,Shared_all,Shared_80,Distinctive
+C1,Austroasiatic; Tai-Kadai; Pano-Tacanan; Austronesian; Tupian,5,0.32222602416001395,0.8308975217084608,0.3797752519791909,BAD; WOUND,BAD; DAMAGE OR INJURE; DESTROY; WOUND,BAD; DAMAGE OR INJURE; DESTROY
+C2,Nakh-Daghestanian; Turkic; Uralic; Indo-European; Afro-Asiatic; Sino-Tibetan,6,0.2764558583627476,0.7482743985395002,0.5263642960759208,DISEASE,DISEASE; GRIEF; WOUND,DISEASE; GRIEF

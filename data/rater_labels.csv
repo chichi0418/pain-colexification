@@ -1,0 +1,27 @@
+ID,Concept,R1,R2,R3,R4,Final
+1,ANXIETY,nonphy,nonphy,nonphy,nonphy,nonphy
+2,BAD,nonphy,nonphy,nonphy,nonphy,nonphy
+3,BAD LUCK,nonphy,nonphy,nonphy,phy,nonphy
+4,BLISTER,phy,phy,phy,phy,phy
+5,BLUE,nonphy,nonphy,nonphy,phy,nonphy
+6,BOIL (OF SKIN),phy,phy,phy,phy,phy
+7,BRUISE,phy,phy,phy,phy,phy
+8,DAMAGE OR INJURE,phy,phy,phy,phy,phy
+9,DESTROY,phy,phy,phy,phy,phy
+10,DIE,phy,phy,phy,phy,phy
+11,DISEASE,phy,phy,phy,phy,phy
+12,EVIL,nonphy,nonphy,nonphy,nonphy,nonphy
+13,FEVER,phy,phy,phy,phy,phy
+14,GRIEF,nonphy,nonphy,nonphy,nonphy,nonphy
+15,HOT,phy,phy,phy,phy,phy
+16,LAUGH,phy,phy,phy,phy,phy
+17,PAIN,phy,phy,phy,nonphy,phy
+18,PAINFUL,nonphy,phy,nonphy,nonphy,nonphy
+19,PITY,nonphy,nonphy,nonphy,nonphy,nonphy
+20,REGRET,nonphy,nonphy,nonphy,nonphy,nonphy
+21,SCAR,phy,phy,phy,phy,phy
+22,SICK,phy,phy,phy,phy,phy
+23,SWELLING,phy,phy,phy,phy,phy
+24,TIRED,phy,phy,phy,phy,phy
+25,WEAK,phy,phy,phy,phy,phy
+26,WOUND,phy,phy,phy,phy,phy

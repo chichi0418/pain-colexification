@@ -1,0 +1,13 @@
+Family,nodes_sweep,nodes_main,k_sweep,k_main,ARI_sweep,ARI_main,p_sweep,p_main,identical
+Afro-Asiatic,7,7,2,2,-0.0769,-0.0769,1.0,1.0,True
+Austroasiatic,11,11,4,4,-0.0094,-0.0094,1.0,1.0,True
+Austronesian,14,14,3,3,0.2278,0.2278,0.0604,0.0604,True
+Indo-European,14,14,4,4,0.3424,0.3424,0.009,0.009,True
+Nakh-Daghestanian,10,10,3,3,-0.0284,-0.0284,1.0,1.0,True
+Pano-Tacanan,8,8,2,2,-0.0606,-0.0606,1.0,1.0,True
+Sino-Tibetan,11,11,3,3,0.1212,0.1212,0.2727,0.2727,True
+Tai-Kadai,14,14,4,4,0.0175,0.0175,0.4286,0.4286,True
+Tupian,10,10,4,4,0.1026,0.1026,0.3,0.3,True
+Turkic,6,6,2,2,1.0,1.0,0.0667,0.0667,True
+Universal,26,26,4,4,0.1388,0.1388,0.0171,0.0171,True
+Uralic,7,7,3,3,0.4425,0.4425,0.0952,0.0952,True

@@ -1,0 +1,13 @@
+Family,Algorithm,Significant_p05,Marginal_p10,Best_ARI,Best_Condition,Not_Evaluable,Not_Evaluable_Reasons
+Afro-Asiatic,leiden,0/10,0/10,0.0,threshold_binary_t30,0,
+Austroasiatic,leiden,0/6,0/6,0.041,threshold_binary_t5,4,single label class ×2; PAIN-CC too small ×2
+Austronesian,leiden,0/6,3/6,0.4425,transform_minmax_full,4,single label class ×2; PAIN-CC too small ×2
+Indo-European,leiden,8/9,8/9,1.0,threshold_binary_t20,1,PAIN removed ×1
+Nakh-Daghestanian,leiden,0/5,0/5,0.1026,threshold_binary_t5,5,PAIN-CC too small ×4; single label class ×1
+Pano-Tacanan,leiden,0/8,0/8,0.16,threshold_binary_t5,2,PAIN-CC too small ×1; PAIN removed ×1
+Sino-Tibetan,leiden,0/9,0/9,0.1212,transform_log1p_full,1,PAIN-CC too small ×1
+Tai-Kadai,leiden,0/6,0/6,0.0175,threshold_binary_t5,4,single label class ×2; PAIN-CC too small ×2
+Tupian,leiden,0/10,0/10,0.2651,transform_log1p_full,0,
+Turkic,leiden,0/8,5/8,1.0,threshold_binary_t30,2,single label class ×2
+Uralic,leiden,1/6,5/6,1.0,threshold_binary_t5,4,PAIN-CC too small ×3; single label class ×1
+Universal,leiden,6/7,6/7,0.2511,threshold_binary_t5,3,PAIN-CC too small ×1; PAIN removed ×1; no edges left ×1

@@ -1,0 +1,13 @@
+Family,Algorithm,Significant_p05,Best_ARI,Best_Condition,Not_Evaluable,Not_Evaluable_Reasons
+Afro-Asiatic,leiden,0/11,0.0,"steps=9, postwalk_raw",0,
+Austroasiatic,leiden,0/11,-0.0094,"steps=0, nowalk",0,
+Austronesian,leiden,4/11,0.2972,"steps=4, postwalk_raw",0,
+Indo-European,leiden,3/11,0.3424,"steps=1, postwalk_raw",0,
+Nakh-Daghestanian,leiden,0/11,0.1026,"steps=6, postwalk_raw",0,
+Pano-Tacanan,leiden,0/11,0.16,"steps=0, nowalk",0,
+Sino-Tibetan,leiden,0/11,0.1212,"steps=0, nowalk",0,
+Tai-Kadai,leiden,0/11,0.0175,"steps=0, nowalk",0,
+Tupian,leiden,0/11,0.5051,"steps=0, nowalk",0,
+Turkic,leiden,0/11,1.0,"steps=0, nowalk",0,
+Uralic,leiden,5/11,1.0,"steps=6, postwalk_raw",0,
+Universal,leiden,11/11,0.2269,"steps=4, postwalk_raw",0,
